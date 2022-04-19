@@ -333,4 +333,45 @@ width: 65%;
 .textosimgs a{
     font-size: 40px;;
 }
+.imgshistoria{
+    margin-top: 20%;
+    display: block;
+    justify-content: center;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    border: solid 8px rgb(223, 171, 87);
+}
+.contextouno{
+    width: 90%;
+    margin-left: 5%;
+}
+.contextodos{
+    width:90%;
+    position: relative;
+    margin-left: 5%;
+    animation-name: contextodos;
+    animation-duration: 2s;
+}
+@keyframes contextodos {
+    0%{
+        margin-top: -53%;
+    }
+    100%{
+        margin-top: 0%;
+    }
+}
+.pinceladahistoria, .pinceladahistoriados{
+    width: 300%;
+    margin-top: 60%;
+    margin-left: -20%;
+    transform: rotate(90deg);
+}
+.pinceladahistoria{
+    margin-top: 10%;
+    margin-left: 280%;
+    transform: rotate(-180deg);
+}
+.pinceladahistoriados{
+    display: none;
+}
 }
