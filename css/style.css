@@ -1,7 +1,7 @@
 .body{
     margin: 0%;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 nav a{
     background-color: (156, 106, 202);
@@ -317,5 +317,20 @@ width: 65%;
 }
 .animado {
     opacity: 100%;
+}
+.navbar-header{
+    width: 50%;
+}
+.navbar-header img{
+    width: 80%;
+}
+.pinceladauno img{
+    width: 50%;
+}
+.pinceladados img{
+    width: 50%;
+}
+.textosimgs a{
+    font-size: 40px;;
 }
 }
