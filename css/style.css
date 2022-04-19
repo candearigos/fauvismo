@@ -1,0 +1,309 @@
+.body{
+    margin: 0%;
+    padding: 0;
+    overflow-x: hidden;
+}
+nav a{
+    background-color: (156, 106, 202);
+    border-radius: 3%;  
+    color:#9E9D9D;
+    text-decoration: none;
+    padding: 3%;
+    
+}
+.animado{
+    opacity: 0;
+    transition: all 1s;
+}
+.logo{
+    width: 25%;
+}
+.seccionesbarassi a, .logobarassi a{
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: 0.5s;
+}
+.logobarassi h1:hover, .seccionesbarassi a:hover{
+    background-color:  rgb(223, 171, 87);
+    transform: scale(1.1);
+    border-radius: 3px;
+}
+.offcanvas-end{
+    margin-right: 5%;
+}
+.imgppal img{
+    width: 100%;
+    animation-name: imgppal;
+    animation-duration: 2s;
+}
+@keyframes imgppal {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+    
+}
+.pinceladauno img{
+    width: 20%;
+}
+.pinceladados img{
+    width: 20%;
+}
+.textohome p{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+.imgshome img{
+    width: 100%;
+    transition: 1s;
+}
+.imgshome img:hover{
+    width: 105%;
+    opacity: 20%;
+}
+.textosimgs h1{
+    font-family: 'Square Peg', cursive;
+}
+.textosimgs h3{
+    font-size: 25px;;
+}
+.textosimgs a{
+    text-decoration: none;
+}
+.txtuno a{
+    color:cadetblue;
+    transition: 1s;
+}
+.txtuno a:hover{
+    background-color: cadetblue;
+}
+.txtdos a{
+    color: black;
+    transition: 1s;
+}
+.txtdos a:hover{
+    background-color: rgb(81, 79, 79);
+}
+.txttres a{
+    color: orange ;
+    transition: 1s;
+}
+.txttres a:hover{
+    background-color:orange ;
+}
+.txtuno a:hover, .txtdos a:hover, .txttres a:hover{
+    opacity: 80%;
+    color: white;
+    border-radius: 3px;
+    transform: scale(1.1);
+}
+.footersitio a{
+    margin-top: 10%;
+}
+
+/* buscador */
+
+.buscador{
+    overflow: hidden;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    font-size: 10px;;
+    margin-top: 5%;
+}
+.buscar h2{
+    font-size: 20px;
+}
+.buscar input{
+    padding: 9px 10px 9px 32px;
+    width: 4%;
+    border-radius: 15px;
+    outline: none;
+    border: 3px solid orange ;
+    background: #fff url("search.icon.png") no-repeat 7px center;
+    transition: all 2s;
+}
+.buscar input:hover{
+    width:20%;
+    background-color: #fff;
+    border-color: rgb(11, 68, 182);
+}
+.derainimg{
+width: 65%;
+}
+.autoretrato{
+    width: 40%;
+    position: relative;
+    margin-left: 80%;
+    margin-top: -80%;
+}
+.pinceladaderain{
+    width: 100%;
+    position: relative;
+    margin-top: -15%;
+    margin-left: -10%;
+}
+.pinceladaderaindos{
+    width: 60%;
+    position: relative;
+    margin-top: -40%;
+    margin-left: 75%;
+}
+.pinceladaderaintres{
+    width: 50%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: -8%;
+    animation-name: movimientopincelada;
+    animation-duration: 2s;
+}
+@keyframes movimientopincelada {
+    0%{
+        margin-left: -5%;
+    }
+    100%{
+        margin-left: 10%;
+    }
+    
+}
+.txtandrederain, .txtandrederaindos{
+    margin-left: 2%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.txtandrederain h1{
+    font-family: 'Square Peg', cursive;
+    font-size: 70px;   
+}
+.txtandrederaindos{
+    padding-top: -5%;
+}
+.pinceladaderaincuatro{
+    width: 20%;
+}
+.obrasderain img{
+    width: 100%;
+}
+.obrasderain img:hover{
+    width: 105%;
+    transition: 1s;
+    opacity: 60%;
+}
+
+/* historia */
+.imgshistoria{
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1%;
+    border: solid 8px rgb(223, 171, 87);
+}
+.contextouno{
+    width: 68%;
+}
+.contextodos{
+    width: 33.7%;
+    position: absolute;
+    margin-left: 53.5%;
+    animation-name: contextodos;
+    animation-duration: 2s;
+}
+@keyframes contextodos {
+    0%{
+        margin-left: 0%;
+    }
+    100%{
+        margin-left: 53.5%;
+    }
+}
+.pinceladahistoria, .pinceladahistoriados{
+    width: 150%;
+    margin-top: 60%;
+    margin-left: -10%;
+    transform: rotate(90deg);
+}
+.pinceladahistoriados{
+    margin-top:150% ;
+}
+
+/* filosofia */
+.imgsfilosofia img{
+    width: 100%;
+}
+.textofilosofia p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+}
+.textoitalic{
+    font-size: 40px;
+    color: rgb(164, 196, 36);
+    font-family: 'Square Peg', cursive;
+}
+.titulofilosofia{
+    color: rgb(164, 196, 36);
+    font-size: 40px;
+}
+/* galeria */
+.mujerconsombrero{
+    width: 60%;
+}
+.laventanaabierta{
+    position: relative;
+    width: 60%;
+    margin-top: 15%;
+    left: 185%;
+}
+.txtmujersombrero{
+    margin-left: 20%;
+   position:absolute;
+   padding-top: 3%;
+}
+.txtmujersombrero h3, .txtlaventana h3{
+    font-size: 35px;
+    font-family: 'Square Peg', cursive;
+    background-color:rgb(69, 160, 165);
+    width: 80%;
+    padding: 2%;
+    top: 10%;
+}
+.txtmujersombrero p{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.medidas{
+    padding-top: 20%;
+    margin-left: 20%;
+    color:rgb(69, 160, 165) ;
+}
+.txtlaventana h3{
+    margin-top: 34.4%; 
+    position: absolute;
+    z-index: 2;
+    padding: 1%;
+    width: 45%;
+    right: 25%;
+}
+.txtlaventana p{
+    position: absolute;
+    margin-top: 43%;
+    margin-left: -30%;
+    width: 45%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.medidasdos{
+    padding-top: 15%;
+    margin-left: 20%;
+    color:rgb(69, 160, 165) ;
+}
+/* contacto */
+.formulario{
+    margin-top: 20%;
+    border: solid 3px rgb(165, 69, 143);
+}
+
+
+
