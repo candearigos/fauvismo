@@ -1,7 +1,7 @@
 .body{
     margin: 0%;
     padding: 0;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 nav a{
     background-color: (156, 106, 202);
@@ -18,23 +18,19 @@ nav a{
 .logo{
     width: 25%;
 }
-.seccionesbarassi a, .logobarassi a{
-    color: rgb(0, 0, 0);
-    display: block;
-    transition: 0.5s;
-}
-.logobarassi h1:hover, .seccionesbarassi a:hover{
-    background-color:  rgb(223, 171, 87);
-    transform: scale(1.1);
-    border-radius: 3px;
-}
 .offcanvas-end{
     margin-right: 5%;
+}
+.offcanvas-title{
+    width: 50%;
 }
 .imgppal img{
     width: 100%;
     animation-name: imgppal;
     animation-duration: 2s;
+}
+.imgppalresposive{
+    display: none;
 }
 @keyframes imgppal {
     0%{
@@ -59,6 +55,7 @@ nav a{
 .imgshome img{
     width: 100%;
     transition: 1s;
+    overflow-x: hidden;
 }
 .imgshome img:hover{
     width: 105%;
@@ -306,4 +303,19 @@ width: 65%;
 }
 
 
-
+/* dispositivo pequeño */
+@media(max-width: 480px){
+.imgppal img{
+    display: none;
+}
+.imgppalresposive{
+    display:block ;
+}
+.imgppalresposive img{
+    width: 100%;
+    margin-top: 20%;
+}
+.animado {
+    opacity: 100%;
+}
+}
