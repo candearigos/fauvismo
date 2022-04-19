@@ -374,4 +374,26 @@ width: 65%;
 .pinceladahistoriados{
     display: none;
 }
+
+/* artistas */
+.autoretrato{
+    width: 70%;
+    position: relative;
+    display: block;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.pinceladaderaindos{
+    width: 80%;
+    position: relative;
+    margin-top: -12%;
+    margin-left: 20%;
+}
+.obrasderain img{
+    width: 110%;
+    padding-top:2% ;
+}
+.pinceladaderaincuatro{
+    width: 50%;
+}
 }
