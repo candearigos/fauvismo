@@ -24,6 +24,13 @@ nav a{
 .offcanvas-title{
     width: 50%;
 }
+.seccionesfauvismo a:hover{
+    background-color: rgb(130, 207, 210);
+    border-radius: 4%;  
+}
+.menu a:hover{
+    background-color:rgb(165, 234, 101);
+}
 .imgppal img{
     width: 100%;
     animation-name: imgppal;
@@ -242,59 +249,31 @@ width: 65%;
     font-size: 40px;
 }
 /* galeria */
-.mujerconsombrero{
-    width: 60%;
+.galeria{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.titulogaleria{
+    margin-top: 10%;
+}
+.mujerconsombrero h3, .laventanaabierta h3{
+    font-family: 'Square Peg', cursive;
+    margin-bottom: 10%;
+    background-color: rgb(48, 188, 195);;
+    font-size: 50px;
+}
+.mujerconsombrero h4, .laventanaabierta h4{
+    color:  rgb(48, 188, 195);
+    font-size: 20px;
 }
 .laventanaabierta{
-    position: relative;
+    margin-left: -14%;
+}
+.laventana img{
     width: 60%;
-    margin-top: 15%;
-    left: 185%;
 }
-.txtmujersombrero{
-    margin-left: 20%;
-   position:absolute;
-   padding-top: 3%;
-}
-.txtmujersombrero h3, .txtlaventana h3{
-    font-size: 35px;
-    font-family: 'Square Peg', cursive;
-    background-color:rgb(69, 160, 165);
-    width: 80%;
-    padding: 2%;
-    top: 10%;
-}
-.txtmujersombrero p{
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 10%;
-    width: 80%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.medidas{
-    padding-top: 20%;
-    margin-left: 20%;
-    color:rgb(69, 160, 165) ;
-}
-.txtlaventana h3{
-    margin-top: 34.4%; 
-    position: absolute;
-    z-index: 2;
-    padding: 1%;
-    width: 45%;
-    right: 25%;
-}
-.txtlaventana p{
-    position: absolute;
-    margin-top: 43%;
-    margin-left: -30%;
-    width: 45%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.medidasdos{
-    padding-top: 15%;
-    margin-left: 20%;
-    color:rgb(69, 160, 165) ;
+.carasimg img, .parabrisasimg img{
+    width: 70%;
+    margin-left: 15%;
 }
 /* contacto */
 .formulario{

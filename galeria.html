@@ -32,9 +32,18 @@
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body canvas">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 seccionesbarassi">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3  seccionesfauvismo">
                 <li class="nav-item"><a class="nav-link" href="historia.html">HISTORIA</a> </li>
-                <li class="nav-item"><a class="nav-link" href="artistas.html">ARTISTAS</a> </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ARTISTAS</a>
+                  <ul class="dropdown-menu menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="derain.html">André Derain</a></li>
+                    <li><a class="dropdown-item" href="#">Henri Matisse</a></li>
+                    <li><a class="dropdown-item" href="#">Maurice de Vlaminck</a></li>
+                    <li><a class="dropdown-item" href="#">Henri Manguin</a></li>
+                    <li><a class="dropdown-item" href="#">Albert Marquet</a></li>
+                  </ul>
+                </li>
                 <li class="nav-item"><a class="nav-link" href="filosofia.html">FILOSOFÍA</a></li>
                 <li class="nav-item"> <a class="nav-link" href="galeria.html">GALERÍA</a></li>
                 <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
@@ -46,84 +55,98 @@
     </header>
     <body>
 
-<section class="container">
-    <h1>GALERÌA</h1>
-    <div class="row">
-        <div class="col-5">
-            <img class="mujerconsombrero animado"src="imgs/contactoimg.jpg">
+      <section class="galeria mt-5">
+      
+        <div class="titulogaleria">
+          <h1 class="text-center">GALERÍA</h1>
         </div>
-        <div class="col-7 txtmujersombrero animado">
-            <h3 class="text-white">"Mujer con sombrero"(1905), Henri Matisse</h3>
-            <p>Fue expuesto por primera vez junto a la obra de otros artistas en el Salón de Otoño de 1905. 
-                La modelo fue Amélie, la esposa de Matisse y al retratarla opta por un estilo pictórica donde 
-                se privilegia lo visual a cargo de pinceladas rápidas y no muy precisas por lo que la línea del
-                 vestido y el sombrero no son muy definidas.
+        <div class="row">
+                <div class="col-2"></div>
+                <div class="col-lg-5 col-sm-11 mujerconsombrero mt-5 animado ">
+                <h3 class="animado"><strong>Mujer con sombrero</strong></h3>
+                <p>Fue expuesto por primera vez junto a la obra de otros artistas en el Salón de Otoño de 1905. 
+                  La modelo fue Amélie, la esposa de Matisse y al retratarla opta por un estilo pictórica donde
+                   se privilegia lo visual a cargo de pinceladas rápidas y no muy precisas por lo que la línea del
+                    vestido y el sombrero no son muy definidas.</p>
+                <p>También las pinceladas no comparten en el fondo la misma dirección y eso es a propósito, se pretende
+                   generar diferenciación. No existen márgenes, líneas o contornos definidos.</p>
+                <h4 class="fst-italic">MEDIDA: 81 X 65 CM<br/>
+                    TÉCNICA: OLEO SOBRE LIENZO</h4>
                 
-                También las pinceladas no comparten en el fondo la misma dirección y eso es a propósito, se pretende
-                 generar diferenciación. No existen márgenes, líneas o contornos definidos.</p>
-            <p class="medidas"><strong> 81 X 65 CM <br/>
-                TÉCNICA: OLEO SOBRE LIENZO</strong></p>
+                </div>
+                <div class="col-lg-5 col-sm-11  mt-5 laventana animado">
+                  <img src="imgs/mujerconsombrero.jpg">
+                </div>
+               
+            
+                
+                <div class="col-2"></div>
+                <div class="col-lg-5 col-sm-11 laventana animado mt-5 mb-5">
+                <img src="imgs/laventanaabierta.jpg">
+                </div>
+                <div class="col-lg-5 col-sm-11 laventanaabierta animado mt-5 mb-5 ">
+                <h3 class="animado txtnoticias"><strong>La ventana abierta</strong> </h3>
+                <p>La pintura viene a representar la vista desde una ventana abierta con macetas y plantas mostrando el puerto de Collioure con veleros. </p>
+                <p>Lo interesante es detenerse en que no hay diferencia entre el primer plano de las macetas y el plano del fondo con los veleros</p>  
+                 <p>En esta obra se puede observar la supresión del fondo, la síntesis de las formas mediante la estructuración de la mancha, 
+                   y la arbitrariedad en el uso del color puro sin degradados.
+                  Como en todas sus obras se destaca la pasi{on de los colores y sus pinceladas bruscas.</p>
+                  <h4 class="fst-italic">MEDIDA: 55,3 X 46 CM<br/>
+                    TÉCNICA: OLEO SOBRE LIENZO</h4>
+                </div>
+                  <!-- <div class="col-lg-2 mockupbsastimes animado">
+                    <img src="imgs.mockup/carasbr.png">
+                  </div> -->
         </div>
-
-        <div class="col-7 txtlaventana animado">
-            <h3 class="text-white">"La ventana abierta"(1906), Henri Matisse</h3>
-            <p>La pintura viene a representar la vista desde una ventana abierta con macetas y plantas mostrando el puerto de Collioure con veleros. 
-                Lo interesante es detenerse en que no hay diferencia entre el primer plano de las macetas y el plano del fondo con los veleros
-                 En esta obra se puede observar la supresión del fondo, la síntesis de las formas mediante la estructuración de la mancha, y la arbitrariedad en el uso del color puro sin degradados.
-                Como en todas sus obras se destaca la pasi{on de los colores y sus pinceladas bruscas.</p>
-            <p class="medidasdos"><strong> MEDIDA: 55,3 X 46 CM <br/>
-                TÉCNICA: OLEO SOBRE LIENZO</strong></p>
-        </div>
-        <div class="col-5">
-            <img class="laventanaabierta" src="imgs/laventanaabierta.jpg">
-        </div>
-    </div>
-
-    <div class="row mt-5">
-      <div class="col-5">
-          <img class="mujerconsombrero animado"src="imgs/paisajedel.jpg">
-      </div>
-      <div class="col-7 txtmujersombrero animado">
-          <h3 class="text-white">"Paisaje del"(1907) , André Derain
-          </h3>
-          <p>En Pinède à Cassis ("Paisaje Del"), Derain emplea un uso del color como forma de expresar emociones.
-             En esta pintura, Derain usó pinceladas dispersas y alargadas, típicas del divisionismo, para estructura
-              la escena y distribuir árboles y otros elementos el paisaje.
-            Los colores son antinaturales con verdes, naranjas y amarillos vibrantes que generan un contraste enorme,
-             pero que consiguen sugerir el calor resplandeciente del verano mediterráneo. Derain también huye de la 
-             perspectiva y los claroscuros.</p>
-          <p class="medidas mt-5"><strong> MEDIDA: 54 X 65 CM <br/>
-            TÉCNICA: OLEO SOBRE LIENZO</strong></p>
-      </div>
-
-      <div class="col-7 txtlaventana animado">
-          <h3 class="text-white">"La ventana abierta"(1906), Henri Matisse</h3>
-          <p>La pintura viene a representar la vista desde una ventana abierta con macetas y plantas mostrando el puerto de Collioure con veleros. 
-              Lo interesante es detenerse en que no hay diferencia entre el primer plano de las macetas y el plano del fondo con los veleros
-               En esta obra se puede observar la supresión del fondo, la síntesis de las formas mediante la estructuración de la mancha, y la arbitrariedad en el uso del color puro sin degradados.
-              Como en todas sus obras se destaca la pasi{on de los colores y sus pinceladas bruscas.</p>
-          <p class="medidasdos"><strong> MEDIDA: 55,3 X 46 CM <br/>
-              TÉCNICA: OLEO SOBRE LIENZO</strong></p>
-      </div>
-      <div class="col-5">
-          <img class="laventanaabierta" src="imgs/laventanaabierta.jpg">
-      </div>
+            
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-lg-5 col-sm-11 mujerconsombrero mt-5 animado ">
+          <h3 class="animado"><strong>Mujer con sombrero</strong></h3>
+          <p>Fue expuesto por primera vez junto a la obra de otros artistas en el Salón de Otoño de 1905. 
+            La modelo fue Amélie, la esposa de Matisse y al retratarla opta por un estilo pictórica donde
+             se privilegia lo visual a cargo de pinceladas rápidas y no muy precisas por lo que la línea del
+              vestido y el sombrero no son muy definidas.</p>
+          <p>También las pinceladas no comparten en el fondo la misma dirección y eso es a propósito, se pretende
+             generar diferenciación. No existen márgenes, líneas o contornos definidos.</p>
+          <h4 class="fst-italic">MEDIDA: 81 X 65 CM<br/>
+              TÉCNICA: OLEO SOBRE LIENZO</h4>
+          
+          </div>
+          <div class="col-lg-5 col-sm-11  mt-5 laventana animado">
+            <img src="imgs/mujerconsombrero.jpg">
+          </div>
+         
+      
+          
+          <div class="col-2"></div>
+          <div class="col-lg-5 col-sm-11 laventana animado mt-5 mb-5">
+          <img src="imgs/laventanaabierta.jpg">
+          </div>
+          <div class="col-lg-5 col-sm-11 laventanaabierta animado mt-5 mb-5 ">
+          <h3 class="animado txtnoticias"><strong>La ventana abierta</strong> </h3>
+          <p>La pintura viene a representar la vista desde una ventana abierta con macetas y plantas mostrando el puerto de Collioure con veleros. </p>
+          <p>Lo interesante es detenerse en que no hay diferencia entre el primer plano de las macetas y el plano del fondo con los veleros</p>  
+           <p>En esta obra se puede observar la supresión del fondo, la síntesis de las formas mediante la estructuración de la mancha, 
+             y la arbitrariedad en el uso del color puro sin degradados.
+            Como en todas sus obras se destaca la pasi{on de los colores y sus pinceladas bruscas.</p>
+            <h4 class="fst-italic">MEDIDA: 55,3 X 46 CM<br/>
+              TÉCNICA: OLEO SOBRE LIENZO</h4>
+          </div>
+            <!-- <div class="col-lg-2 mockupbsastimes animado">
+              <img src="imgs.mockup/carasbr.png">
+            </div> -->
   </div>
-</section>
-
-
-
-
-
 
         <footer class="footersitio">
-            <p class="text-center  bg-secondary text-white p-3 dariobarassi">Candela Arigós </p>
+            <p class="text-center  bg-secondary text-white p-3">Candela Arigós </p>
             </footer>
         
         <!-- BootStrap JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="js/animar.js"></script>
         </body>
         </html>
