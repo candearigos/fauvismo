@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0;
     overflow-x: hidden;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 nav a{
     background-color: (156, 106, 202);
@@ -12,8 +13,42 @@ nav a{
     
 }
 .animado{
-    opacity: 0;
+    opacity: 10%;
     transition: all 1s;
+}
+.titulo{
+    min-height: 100vh;
+    position: relative;
+}
+video{
+    position: absolute;
+    top: -6%;
+    left: 0;
+    bottom: -5%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 80%;
+}
+.videoresponsive{
+    display: none;
+    position: absolute;
+    top: -6%;
+    left: 0;
+    bottom: -5%;
+    width: 100%;
+    object-fit: cover;
+}
+.slide{
+    background-color: white;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:black ;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
 }
 .logo{
     width: 25%;
@@ -36,6 +71,13 @@ nav a{
     animation-name: imgppal;
     animation-duration: 2s;
 }
+.textohome h1{
+    background-color: white;
+    color: cadetblue;
+    font-size: 70px;
+    font-family: 'Square Peg', cursive;
+    text-align: center;
+}
 .imgppalresposive{
     display: none;
 }
@@ -48,6 +90,9 @@ nav a{
     }
     
 }
+.homestrong{
+    color: rgb(232, 149, 42);
+}
 .pinceladauno img{
     width: 20%;
 }
@@ -55,9 +100,8 @@ nav a{
     width: 20%;
 }
 .textohome p{
-    width: 80%;
-    text-align: center;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
 }
 .imgshome img{
     width: 100%;
@@ -108,8 +152,18 @@ nav a{
     margin-top: 10%;
 }
 
-/* buscador */
-
+/* buscador y derain*/
+.strongderain{
+    color: rgb(110, 162, 58);
+    font-size: 18px;;
+}
+.barquito img{
+    display: block;
+    width: 100%;
+    left:0%;
+    position: relative;
+    top: 10%;
+}
 .buscador{
     overflow: hidden;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -182,6 +236,7 @@ width: 65%;
 }
 .txtandrederaindos{
     padding-top: -5%;
+    padding-left: 5%;
 }
 .pinceladaderaincuatro{
     width: 20%;
@@ -232,6 +287,30 @@ width: 65%;
 }
 
 /* filosofia */
+.gifs h1{
+    font-family: 'Square Peg', cursive;
+    color: rgb(164, 196, 36);
+    font-size: 70px;
+}
+.gifs h1 span{
+    position: relative;
+}
+.gifs h1 span::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    background:rgb(255, 255, 255);
+    height: 90%;
+    width: 100%;
+    border-left: 2px solid rgb(164, 196, 36);
+    animation: escribiendo 3s steps(8) infinite;
+}
+@keyframes escribiendo{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
 .imgsfilosofia img{
     width: 100%;
 }
@@ -252,6 +331,16 @@ width: 65%;
 .galeria{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.obrasresponsive{
+    display: none;
+}
+.obrasnoresponsive{
+    display: block;
+}
+.galeria h1{
+    font-family: 'Square Peg', cursive;
+    font-size: 70px;
+}
 .titulogaleria{
     margin-top: 10%;
 }
@@ -260,6 +349,11 @@ width: 65%;
     margin-bottom: 10%;
     background-color: rgb(48, 188, 195);;
     font-size: 50px;
+}
+.laventanaabierta h5, .mujerconsombrero h5{
+    margin-top: -10%;
+    font-size: 25px;
+    font-family: 'Square Peg', cursive;
 }
 .mujerconsombrero h4, .laventanaabierta h4{
     color:  rgb(48, 188, 195);
@@ -274,6 +368,68 @@ width: 65%;
 .carasimg img, .parabrisasimg img{
     width: 70%;
     margin-left: 15%;
+}
+/* exposiciones */
+.exposicion{
+    justify-content: center;
+    text-align: center;
+}
+.exposicion a{
+    text-decoration: none;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 5px;
+    padding: 1%;
+    text-align: end;
+}
+.nombremuseo{
+    color: cadetblue;
+    font-size: 40px;
+    font-family: 'Square Peg', cursive;
+}
+.exposicion a:hover{
+    background-color: rgb(214, 209, 209);
+    color: cadetblue;
+    transition: 0.5s;
+}
+.textoexposiciones{
+    color: rgb(119, 56, 138);
+    color: white;
+    position: absolute;
+    z-index: 2;
+}
+.textoexposiciones h1, .textoexposiciones h3{
+    color:  rgb(119, 56, 138);
+}
+.surrealismo{
+    font-family: 'Square Peg', cursive;
+    font-size: 70px;
+}
+.descripcion{
+    background-color: cadetblue;
+    position: relative;
+    z-index: 2;
+    width: 70%;
+    margin-left: 15%;
+}
+.descripcion h1{
+    margin-top: 40%;
+    font-size: 20px;
+}
+.descripcion p, .descripcion h1{
+    color:white;
+    width: 70%;
+    margin-left: 15%;
+    padding: 2%;
+}
+.descripcion p{
+    font-size: 18px;
+}
+.museoimgs img{
+    width: 100%;
+}
+.museoimgs img{
+    border: solid 15px  cadetblue;
 }
 /* contacto */
 .formulario{
@@ -353,7 +509,13 @@ width: 65%;
 .pinceladahistoriados{
     display: none;
 }
-
+.exposicion{
+    width: 65%;
+    margin-left: 17.5%;
+}
+.exposicion h6{
+    text-align: center;
+}
 /* artistas */
 .autoretrato{
     width: 70%;
@@ -377,5 +539,29 @@ width: 65%;
 }
 .pinceladahistoria{
    display: none;
+}
+/* galeria */
+.obrasresponsive{
+    display: block;
+}
+.obrasnoresponsive{
+    display: none;
+}
+.laventanaabierta img, .mujerconsombrero img{
+    width: 80%;
+}
+/* historia */
+.imgshistoria{
+    border: solid 8px rgb(223, 171, 87);
+    padding-right: -2%;
+}
+/* exposicion */
+video{
+    margin-top: 20%;
+}
+.descripcion{
+    margin-top: 45%;
+    width: 95%;
+    margin-left: 2.5%;
 }
 }
