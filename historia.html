@@ -15,44 +15,48 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body class="body">
-    <header class=" header">
-      <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
-        <div class="container-fluid cande">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html"><img class="logo"src="imgs/logo-11.png"></a>
-        </div>
-       
-          <button class="navbar-toggler boton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header navbar-header  logoresponsive">
-              <a class="navbar-brand text-white" href="index.html"><img class="offcanvas-title " id="offcanvasNavbarLabel" src="imgs/logo-11.png"></a> 
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3  seccionesfauvismo">
-                <li class="nav-item"><a class="nav-link" href="historia.html">HISTORIA</a> </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ARTISTAS</a>
-                  <ul class="dropdown-menu menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="derain.html">André Derain</a></li>
-                    <li><a class="dropdown-item" href="#">Henri Matisse</a></li>
-                    <li><a class="dropdown-item" href="#">Maurice de Vlaminck</a></li>
-                    <li><a class="dropdown-item" href="#">Henri Manguin</a></li>
-                    <li><a class="dropdown-item" href="#">Albert Marquet</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="filosofia.html">FILOSOFÍA</a></li>
-                <li class="nav-item"> <a class="nav-link" href="galeria.html">GALERÍA</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
-              </ul>
-            </div>
+  <header class=" header">
+    <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+      <div class="container-fluid cande">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img class="logo"src="imgs/logo-11.png"></a>
+      </div>
+     
+        <button class="navbar-toggler boton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon text-end"></span>
+        </button>
+      
+        <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header navbar-header  logoresponsive">
+            <a class="navbar-brand text-white" href="index.html"><img class="offcanvas-title" id="offcanvasNavbarLabel" src="imgs/logo-11.png"></a> 
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body canvas">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 seccionesfauvismo">
+              <li class="nav-item"><a class="nav-link" href="historia.html">HISTORIA</a> </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ARTISTAS</a>
+                <ul class="dropdown-menu menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="derain.html">André Derain</a></li>
+                  <li><a class="dropdown-item" href="matisse.html">Henri Matisse</a></li>
+                  <li><a class="dropdown-item" href="vlaminck.html">Maurice de Vlaminck</a></li>
+                  <li><a class="dropdown-item" href="#">Henri Manguin</a></li>
+                  <li><a class="dropdown-item" href="#">Albert Marquet</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="filosofia.html">FILOSOFÍA</a></li>
+              <li class="nav-item"> <a class="nav-link" href="galeria.html">GALERÍA</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
     <body>
         <section class="container imgshistoria">
             <img class="contextouno"src="imgs/historiauno.jpeg">
@@ -65,12 +69,19 @@
                 </div>
                 <div class="col-8  mt-5 animado text-center">
                     
-                    <p>El Fauvismo es una vanguardia artística de origen Frances, Transcurrió durante un periodo corto entre los años 1905 y 1907. </p>
-                    <p>El Salón de Otoño de 1905 supuso la primera exhibición para el grupo. El crítico de arte Louis Vauxcelles tras contemplar las gamas cromáticas estridentes y agresivas de los trabajos expuestos les atribuyó el término "fauves", que en español significa fieras. El nombre asignado era en origen un calificativo peyorativo, como les sucedió a otros movimientos artísticos del S. XX, pero fue asumido por el público y posteriormente introducido en la historia del arte sin connotaciones despectivas.
+                    <p>El Fauvismo es una vanguardia artística de origen Frances, Transcurrió durante un periodo corto entre los años <strong class="homestrong"> 1905 y 1907.</strong> </p>
+                    <p>El Salón de Otoño de 1905 supuso la primera exhibición para el grupo. El crítico de arte Louis Vauxcelles tras contemplar las
+                       gamas <strong class="homestrong"> cromáticas estridentes y agresivas</strong> de los trabajos expuestos les atribuyó el término <strong class="homestrong"> "fauves"</strong>, que en español significa<strong class="homestrong">  fieras.</strong>
+                        El nombre asignado era en origen un calificativo peyorativo, como les sucedió a otros movimientos artísticos del S. XX, pero fue asumido
+                         por el público y posteriormente introducido en la historia del arte sin connotaciones despectivas.
 
-                        El movimiento se fraguó en torno a Henri Matisse y sus integrantes fueron André Derain, Maurice de Vlaminick, Henri Manguin, Albert Marquet, Jean Puy y Emile Otón Friesz. En 1906 se unieron también George Braque y Raoul Dufy.
+                        El movimiento se fraguó en torno a Henri Matisse y sus integrantes fueron André Derain, Maurice de Vlaminick, Henri Manguin, Albert Marquet,
+                         Jean Puy y Emile Otón Friesz. En 1906 se unieron también George Braque y Raoul Dufy.
                         
-                        El Fauvismo no fue un movimiento conscientemente definido, careció de un manifiesto. Fue un mosaico de aportaciones en el que cada pintor acometía sus obras como una experiencia personal cargada de espontaneidad y de frescura. Les unió la actitud violenta con la que se enfrentaron a los convencionalismos de la época rechazando las reglas y los métodos racionales establecidos. Reaccionan contra el Impresionismo y contra la importancia que éstos habían dado a la luz a costa de la pérdida del color.
+                        El Fauvismo no fue un movimiento conscientemente definido, careció de un manifiesto. Fue un mosaico de aportaciones en el que cada pintor
+                         acometía sus obras como una experiencia personal cargada de <strong class="homestrong">espontaneidad y de frescura.</strong>  Les unió la actitud violenta con la que se enfrentaron
+                          a los convencionalismos de la época rechazando las reglas y los métodos racionales establecidos. Reaccionan contra el Impresionismo y contra
+                           la importancia que éstos habían dado a la luz a costa de la pérdida del color.
                         
                          </p> 
                      <p>Esta vanguardia se extendió a otros países; su estilo fue reproducido por artistas de Bélgica, España, Hungría y otras naciones,
