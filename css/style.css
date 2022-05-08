@@ -432,11 +432,23 @@ width: 65%;
     border: solid 15px  cadetblue;
 }
 /* contacto */
+.contactanos h3{
+    font-family: 'Square Peg', cursive;
+    color: rgb(165, 69, 143);
+    font-size: 70px;
+}
 .formulario{
     margin-top: 20%;
     border: solid 3px rgb(165, 69, 143);
 }
-
+.formulario input{
+    border: solid 3px rgb(165, 69, 143);
+    border-radius: 5px;
+}
+.card-body{
+    border: solid 3px rgb(165, 69, 143);
+    border-radius: 5px;
+}
 
 /* dispositivo pequeño */
 @media(max-width: 480px){
